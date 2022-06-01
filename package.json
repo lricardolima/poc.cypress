@@ -1,0 +1,30 @@
+{
+  "name": "poc-leilao-com-cypress",
+  "version": "1.0.0",
+  "description": "Repositòrio versão 1 da poc",
+  "main": "src/main/java/br/com/alura/leilao/LeilaoApplication.java",
+  
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:open:mobile": "cypress open --config viewportWidth=410 viewportHeight=860",
+    "test": "cypress run",
+    "test:mobile": "cypress run --config viewportWidth=410 viewportHeight=860"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lricardolima/poc.cypress.git"
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Cypress Básico",
+    "Prova de Conceito"
+  ],
+  "author": "Luis Ricardo <lricardolima85@gmail.com> ",
+  "license": "MIT",
+  "homepage": "https://github.com/lricardolima/poc.cypress.git",
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}
+
