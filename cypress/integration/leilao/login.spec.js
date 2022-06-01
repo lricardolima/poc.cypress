@@ -39,7 +39,7 @@ describe("Testando campos tela de login", function () {
         cy.url().should('be.equal', 'http://localhost:8080/login')
     });
 
-    it.only('Deveria deslogar da página de leilões', () => {
+    it('Deveria deslogar da página de leilões', () => {
         cy.preecheOsCamposDaTelaDeLogin('fulano', 'pass')
         cy.clicarNobotaoDeLogin()
         cy.contains('#sair', 'Sair').click()
